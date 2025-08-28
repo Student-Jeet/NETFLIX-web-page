@@ -1,0 +1,672 @@
+@import url('https://fonts.googleapis.com/css2?family=Nata+Sans:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    /* background-color: brown; */
+    /* height: 20vh; */
+    max-width: 100vw;
+    margin: 0px 0px 0px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav>div {
+    color: rgb(255,0, 0);
+    font-size: 50px;
+    font-family: 'Nsta Sans', 'sans-serif';
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.main {
+    background-image: url("../images/backgroundimage.png");
+    /* height: 99vh; */
+    /* position: relative; */
+    background-position: center;
+    /* cool */
+    background-repeat: no-repeat;
+    background-size: max(1800px, 100vw);
+}
+
+#box2 {
+    margin: 0px 20px 0px 0px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: flex-start; */
+}
+
+.langbtn {
+    display: flex;
+    padding: 0px 0px 0px 0px;
+    margin: 40px 0px 0px 0px;
+}
+
+.Language {
+    background-color: rgb(0, 0, 0);
+    border-radius: 3px;
+    color: aliceblue;
+    height: 50px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.button2 {
+    background-color: red;
+    color: aliceblue;
+    border: 1px solid red;
+    border-radius: 2px;
+    margin-left: 14px;
+    height: 50px;
+    width: 140px;
+    cursor: pointer;
+}
+
+/* #Language {
+    background-color: rgb(0, 0, 0);
+    border-radius: 3px;
+    color: aliceblue;
+    height: 50px;
+    display: inline-block;
+    margin: 10px;
+    margin-top: 90px;
+    cursor: pointer;
+}
+
+#button2 {
+    background-color: red;
+    color: aliceblue;
+    border: 1px solid red;
+    opacity: 1;
+    border-radius: 2px;
+    display: inline-block;
+    margin-top: 90px;
+    margin-left: 10px;
+    height: 50px;
+    width: 140px;
+    cursor: pointer;
+} */
+
+#box1 {
+    background-color: black;
+    opacity: 0.6;
+    height: 99vh;
+
+}
+
+#box3 {
+    margin: 60px 55px 0px 55px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    /* text-align: center; */
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    height: 200px;
+}
+
+.text1 {
+    font-size: 25px;
+}
+
+.text2 {
+    font-size: 20px;
+}
+
+/* #box4 {
+    color: aliceblue;
+    position: relative;
+    top: 110px;
+    font-size: 25px;
+    text-align: center;
+}
+
+#box5 {
+    color: aliceblue;
+    position: relative;
+    top: 120px;
+    font-size: 20px;
+    text-align: center;
+} */
+
+
+#one {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#box6 {
+    display: flex;
+    justify-content: center;
+}
+
+#email {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    height: 48px;
+    width: 18rem;
+    background-color: black;
+    border: 2px solid aliceblue;
+    color: rgb(137, 240, 3);
+    /* opacity: 1; */
+    /* height: 30px; */
+    /* position: relative; */
+    /* top: 180px; */
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#btn3 {
+    margin: 0px 0px 0px 14px;
+    padding: 0px 0px 0px 0px;
+    height: 48px;
+    width: 130px;
+    text-align: center;
+    cursor: pointer;
+    /* position: relative; */
+    color: aliceblue;
+    top: 180px;
+    height: 50px;
+    width: 150px;
+    background-color: red;
+}
+
+#box7 {
+    height: 10px;
+    width: 100%;
+    background-color: slategray;
+    box-shadow: 0px 1px black inset;
+}
+
+#box12 {
+    background-color: black;
+}
+
+#box8 {
+    height: 20px;
+    background-color: black;
+}
+
+#box9 {
+    /* background-image: url("backgroundimage.png"); */
+    height: 1900px;
+    width: 100%;
+    /* overflow-y: hidden; */
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.movies {
+    height: 167px;
+    width: 298px;
+    border: 0px solid black;
+    box-shadow: -1px 2px 14px 3px red;
+    border-radius: 2px;
+    display: inline-block;
+    margin: 10px;
+    /* z-index: 2; */
+    transition: all 0.1s ease-in 0s;
+    background-position: center;
+}
+
+.movies:hover {
+    height: 155px;
+    width: 288px;
+}
+
+.button4 {
+    text-decoration: none;
+}
+
+#hh {
+    color: rgba(240, 248, 255, 0.7);
+    font-size: 40px;
+    font-family: serif;
+    display: flex;
+    justify-content: left;
+}
+
+.a {
+    background-image: url("../images/Allofusaredead.png");
+}
+
+.b {
+    background-image: url("../images/Jumanji.png");
+}
+
+.c {
+    background-image: url("../images/Back\ in\ action.png");
+}
+
+.d {
+    background-image: url("../images/Mission\ Impossible.png");
+}
+
+.e {
+    background-image: url("../images/Skyscraper.png");
+}
+
+.f {
+    background-image: url("../images/It.png");
+}
+
+#bh {
+    color: rgba(240, 248, 255, 0.7);
+    font-size: 40px;
+    margin-top: 60px;
+    font-family: "serif";
+}
+
+.g {
+    background-image: url("../images/Majnu.png");
+}
+
+.h {
+    background-image: url("../images/LaapataLadies.png");
+}
+
+.i {
+    background-image: url("../images/Raid\ 2.png");
+}
+
+.j {
+    background-image: url("../images/Bhoolbhulaiya3.png");
+}
+
+.k {
+    background-image: url("../images/Srikanth.png");
+}
+
+.l {
+    background-image: url("../images/Chhava.png");
+}
+
+#box10 {
+    height: 10px;
+    width: 100%;
+    background-color: slategrey;
+    box-shadow: 0px 1px black inset;
+    z-index: 3;
+}
+
+#box11 {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+#p1 {
+    font-size: 50px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.m {
+    background-image: url("../images/Wednesday.png");
+}
+
+.n {
+    background-image: url("../images/SquidGame.png");
+}
+
+.o {
+    background-image: url("../images/StrangerThings.png");
+}
+
+.p {
+    background-image: url("../images/MoneyHeist.png");
+}
+
+.q {
+    background-image: url("../images/LinconLawyer.png");
+}
+
+.r {
+    background-image: url("../images/House.png");
+}
+
+.s {
+    background-image: url("../images/Grizzy\ and\ the\ lemmings.png");
+}
+
+.t {
+    background-image: url("../images/Kungfu\ Panda.png");
+}
+
+.u {
+    background-image: url("../images/Oggy\ and\ the\ cockroaches.png");
+}
+
+.v {
+    background-image: url("../images/Chhotabheem.png");
+}
+
+.w {
+    background-image: url("../images/Ben10.png");
+}
+
+.x {
+    background-image: url("../images/Mashaandthebear.png");
+}
+
+.y {
+    background-image: url("../images/Dark.png");
+}
+
+.z {
+    background-image: url("../images/Lostinspace.png");
+}
+
+.aa {
+    background-image: url("../images/Manifest.png");
+}
+
+.ab {
+    background-image: url("../images/Kapilsharmashow.png");
+}
+
+.ac {
+    background-image: url("../images/Dexter.png");
+}
+
+.ad {
+    background-image: url("../images/Suits.png");
+}
+
+.ae {
+    background-image: url("../images/Narcos.png");
+}
+
+.af {
+    background-image: url("../images/Osamabinladen.png");
+}
+
+.ag {
+    background-image: url("../images/Queen\'sgambit.png");
+}
+
+.ah {
+    background-image: url("../images/Rookie.png");
+}
+
+.ai {
+    background-image: url("../images/Tomandjerry.png");
+}
+
+.aj {
+    background-image: url("../images/Jurassicworld.png");
+}
+
+.ak {
+    background-image: url("../images/Scooby-doo.png");
+}
+
+.al {
+    background-image: url("../images/Dragons.png");
+}
+
+.am {
+    background-image: url("../images/Saarejahaseachha.png");
+}
+
+.an {
+    background-image: url("../images/Gooddoctor.png");
+}
+
+.ao {
+    background-image: url("../images/Allofusaredead.png");
+}
+
+.ap {
+    background-image: url("../images/Aliceinborderland.png");
+}
+
+.aq {
+    background-image: url("../images/IC814.png");
+}
+
+.as {
+    background-image: url("../images/BlackWarrant.png");
+}
+
+.at {
+    background-image: url("../images/ScaredGames.png");
+}
+
+.aq {
+    background-image: url("../images/Thebiharchapter.png");
+}
+
+.ar {
+    background-image: url("../images/Bardofblood.png");
+}
+
+.au {
+    background-image: url("../images/CID.png");
+}
+
+.av {
+    background-image: url("../images/Decoupled.png");
+}
+
+.aw {
+    background-image: url("../images/WeakHero.png");
+}
+
+.ax {
+    background-image: url("../images/YoungSheldon.png");
+}
+
+.ay {
+    background-image: url("../images/BreakingBad.png");
+}
+
+.az {
+    background-image: url("../images/Superstone.png");
+}
+
+.aaa {
+    background-image: url("../images/SweetTooth.png");
+}
+
+.aab {
+    background-image: url("../images/ra.png");
+}
+
+.aac {
+    background-image: url("../images/t.png");
+}
+
+.aad {
+    background-image: url("../images/Thecrown.png");
+}
+
+.aae {
+    background-image: url("../images/Walkingdead.png");
+}
+
+.aaf {
+    background-image: url("../images/x.png");
+}
+
+.aag {
+    background-image: url("../images/e.png");
+}
+
+.aah {
+    background-image: url("../images/Bodyguard.png");
+}
+
+.aai {
+    background-image: url("../images/YellowStone.png");
+}
+
+.aaj {
+    background-image: url("../images/Do.smilee.png");
+}
+
+#p4 {
+    color: aliceblue;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 100px;
+}
+
+#button5 {
+    background-color: red;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 40px;
+    width: 140px;
+    border: 5px solid rgb(242, 2, 2);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#box29 {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    padding-top: 25px;
+}
+
+#box30 {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+#btn-5 {
+    display: flex;
+    justify-content: center;
+}
+
+#box32 {
+    background-color: black;
+}
+
+#box37 {
+    background-color: black;
+    height: 20px;
+}
+
+#box33 {
+    box-shadow: -1px 1px 8px 5px #fa0c3f;
+    height: 400px;
+}
+
+#AB {
+    display: block;
+    /* justify-content: end; */
+    padding-left: 40px;
+    padding-top: 100px;
+    /* text-decoration: none; */
+    font-size: 30px;
+    color: aliceblue;
+    text-decoration-color: brown;
+}
+
+#CD {
+    display: block;
+    padding: 40px;
+}
+
+.table {
+    color: aliceblue;
+    font-size: 33px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.OL {
+    /* text-decoration: none; */
+    color: aliceblue;
+    border: 7px solid black;
+    text-decoration-color: brown;
+    font-size: 20px;
+}
+
+h3 {
+    color: aliceblue;
+    padding-top: 60px;
+    padding-left: 40px;
+}
+
+#Qs {
+    color: aliceblue;
+    padding: 100px;
+    font-size: 30px;
+}
+
+.FL {
+    max-width: 50vw;
+    height: 8vh;
+    margin: auto;
+    color: aliceblue;
+    font-size: 30px;
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid #2d2d2d;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.FL:hover {
+    background-color: rgb(94, 89, 89);
+}
+
+span {
+    background-image: url("../Assets/Plus.png");
+    height: 10vh;
+    width: 5vw;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+p {
+    font-size: 70px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    margin-top: 190px;
+
+}
+
+#box35 {
+    background-color: black;
+    box-shadow: -6px 1px 8px 5px #fa0c3f;
+    height: 180px;
+}
+
+#box36 {
+    background-color: black;
+    box-shadow: 0px 7px 7px 0px #fa0c3f;
+    height: 50px;
+}
+
+@media screen and (max-width: 490px) {
+    nav {
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+    }
+
+    #box3 {
+        /* margin: 60px 55px 0px 55px; */
+        margin-top: 110px;
+        font-size: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        height: 200px;
+    }
+}
