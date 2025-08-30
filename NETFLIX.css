@@ -21,7 +21,7 @@ nav>div {
 }
 
 .main {
-    background-image: url("../images/backgroundimage.png");
+    background-image: url("../Images/backgroundimage.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: max(1800px, 100vw);
@@ -185,27 +185,27 @@ nav>div {
 /* here classes ~ a,b,c... are used for images */
 
 .a {
-    background-image: url("../images/Allofusaredead.png");
+    background-image: url("../Images/All_of_us_are_dead.png");
 }
 
 .b {
-    background-image: url("../images/Jumanji.png");
+    background-image: url("../Images/Jumanji.png");
 }
 
 .c {
-    background-image: url("../images/Back\ in\ action.png");
+    background-image: url("../Images/Back_in_action.png");
 }
 
 .d {
-    background-image: url("../images/Mission\ Impossible.png");
+    background-image: url("../Images/Mission\ Impossible.png");
 }
 
 .e {
-    background-image: url("../images/Skyscraper.png");
+    background-image: url("../Images/Skyscraper.png");
 }
 
 .f {
-    background-image: url("../images/It.png");
+    background-image: url("../Images/It.png");
 }
 
 #topic {
@@ -216,231 +216,231 @@ nav>div {
 }
 
 .g {
-    background-image: url("../images/Majnu.png");
+    background-image: url("../Images/Majnu.png");
 }
 
 .h {
-    background-image: url("../images/LaapataLadies.png");
+    background-image: url("../Images/LaapataLadies.png");
 }
 
 .i {
-    background-image: url("../images/Raid\ 2.png");
+    background-image: url("../Images/Raid\ 2.png");
 }
 
 .j {
-    background-image: url("../images/Bhoolbhulaiya3.png");
+    background-image: url("../Images/Bhoolbhulaiya3.png");
 }
 
 .k {
-    background-image: url("../images/Srikanth.png");
+    background-image: url("../Images/Srikanth.png");
 }
 
 .l {
-    background-image: url("../images/Chhava.png");
+    background-image: url("../Images/Chhava.png");
 }
 
 .m {
-    background-image: url("../images/Wednesday.png");
+    background-image: url("../Images/Wednesday.png");
 }
 
 .n {
-    background-image: url("../images/SquidGame.png");
+    background-image: url("../Images/SquidGame.png");
 }
 
 .o {
-    background-image: url("../images/StrangerThings.png");
+    background-image: url("../Images/StrangerThings.png");
 }
 
 .p {
-    background-image: url("../images/MoneyHeist.png");
+    background-image: url("../Images/MoneyHeist.png");
 }
 
 .q {
-    background-image: url("../images/LinconLawyer.png");
+    background-image: url("../Images/LinconLawyer.png");
 }
 
 .r {
-    background-image: url("../images/House.png");
+    background-image: url("../Images/House.png");
 }
 
 .s {
-    background-image: url("../images/Grizzy\ and\ the\ lemmings.png");
+    background-image: url("../Images/Grizzy\ and\ the\ lemmings.png");
 }
 
 .t {
-    background-image: url("../images/Kungfu\ Panda.png");
+    background-image: url("../Images/Kungfu\ Panda.png");
 }
 
 .u {
-    background-image: url("../images/Oggy\ and\ the\ cockroaches.png");
+    background-image: url("../Images/Oggy\ and\ the\ cockroaches.png");
 }
 
 .v {
-    background-image: url("../images/Chhotabheem.png");
+    background-image: url("../Images/Chhotabheem.png");
 }
 
 .w {
-    background-image: url("../images/Ben10.png");
+    background-image: url("../Images/Ben10.png");
 }
 
 .x {
-    background-image: url("../images/Mashaandthebear.png");
+    background-image: url("../Images/Mashaandthebear.png");
 }
 
 .y {
-    background-image: url("../images/Dark.png");
+    background-image: url("../Images/Dark.png");
 }
 
 .z {
-    background-image: url("../images/Lostinspace.png");
+    background-image: url("../Images/Lostinspace.png");
 }
 
 .aa {
-    background-image: url("../images/Manifest.png");
+    background-image: url("../Images/Manifest.png");
 }
 
 .ab {
-    background-image: url("../images/Kapilsharmashow.png");
+    background-image: url("../Images/Kapilsharmashow.png");
 }
 
 .ac {
-    background-image: url("../images/Dexter.png");
+    background-image: url("../Images/Dexter.png");
 }
 
 .ad {
-    background-image: url("../images/Suits.png");
+    background-image: url("../Images/Suits.png");
 }
 
 .ae {
-    background-image: url("../images/Narcos.png");
+    background-image: url("../Images/Narcos.png");
 }
 
 .af {
-    background-image: url("../images/Osamabinladen.png");
+    background-image: url("../Images/Osamabinladen.png");
 }
 
 .ag {
-    background-image: url("../images/Queen\'sgambit.png");
+    background-image: url("../Images/Queen\'sgambit.png");
 }
 
 .ah {
-    background-image: url("../images/Rookie.png");
+    background-image: url("../Images/Rookie.png");
 }
 
 .ai {
-    background-image: url("../images/Tomandjerry.png");
+    background-image: url("../Images/Tomandjerry.png");
 }
 
 .aj {
-    background-image: url("../images/Jurassicworld.png");
+    background-image: url("../Images/Jurassicworld.png");
 }
 
 .ak {
-    background-image: url("../images/Scooby-doo.png");
+    background-image: url("../Images/Scooby-doo.png");
 }
 
 .al {
-    background-image: url("../images/Dragons.png");
+    background-image: url("../Images/Dragons.png");
 }
 
 .am {
-    background-image: url("../images/Saarejahaseachha.png");
+    background-image: url("../Images/Saarejahaseachha.png");
 }
 
 .an {
-    background-image: url("../images/Gooddoctor.png");
+    background-image: url("../Images/Gooddoctor.png");
 }
 
 .ao {
-    background-image: url("../images/Allofusaredead.png");
+    background-image: url("../Images/All_of_us_are_dead.png");
 }
 
 .ap {
-    background-image: url("../images/Aliceinborderland.png");
+    background-image: url("../Images/Alice_in_borderland.png");
 }
 
 .aq {
-    background-image: url("../images/IC814.png");
+    background-image: url("../Images/IC814.png");
 }
 
 .as {
-    background-image: url("../images/BlackWarrant.png");
+    background-image: url("../Images/BlackWarrant.png");
 }
 
 .at {
-    background-image: url("../images/ScaredGames.png");
+    background-image: url("../Images/ScaredGames.png");
 }
 
 .aq {
-    background-image: url("../images/Thebiharchapter.png");
+    background-image: url("../Images/The_bihar_chapter.png");
 }
 
 .ar {
-    background-image: url("../images/Bardofblood.png");
+    background-image: url("../Images/Bardofblood.png");
 }
 
 .au {
-    background-image: url("../images/CID.png");
+    background-image: url("../Images/CID.png");
 }
 
 .av {
-    background-image: url("../images/Decoupled.png");
+    background-image: url("../Images/Decoupled.png");
 }
 
 .aw {
-    background-image: url("../images/WeakHero.png");
+    background-image: url("../Images/WeakHero.png");
 }
 
 .ax {
-    background-image: url("../images/YoungSheldon.png");
+    background-image: url("../Images/YoungSheldon.png");
 }
 
 .ay {
-    background-image: url("../images/BreakingBad.png");
+    background-image: url("../Images/BreakingBad.png");
 }
 
 .az {
-    background-image: url("../images/Superstone.png");
+    background-image: url("../Images/Super_stone.png");
 }
 
 .aaa {
-    background-image: url("../images/SweetTooth.png");
+    background-image: url("../Images/Sweet_Tooth.png");
 }
 
 .aab {
-    background-image: url("../images/ra.png");
+    background-image: url("../Images/Sweet_Home.png");
 }
 
 .aac {
-    background-image: url("../images/t.png");
+    background-image: url("../Images/Hierarchy.png");
 }
 
 .aad {
-    background-image: url("../images/Thecrown.png");
+    background-image: url("../Images/Thecrown.png");
 }
 
 .aae {
-    background-image: url("../images/Walkingdead.png");
+    background-image: url("../Images/Walkingdead.png");
 }
 
 .aaf {
-    background-image: url("../images/x.png");
+    background-image: url("../Images/Trigger.png");
 }
 
 .aag {
-    background-image: url("../images/e.png");
+    background-image: url("../Images/Waikiki.png");
 }
 
 .aah {
-    background-image: url("../images/Bodyguard.png");
+    background-image: url("../Images/Bodyguard.png");
 }
 
 .aai {
-    background-image: url("../images/YellowStone.png");
+    background-image: url("../Images/YellowStone.png");
 }
 
 .aaj {
-    background-image: url("../images/Do.smilee.png");
+    background-image: url("../Images/Do.smilee.png");
 }
 
 #about_us_text1 {
@@ -557,14 +557,6 @@ nav>div {
 
 .general_question:hover {
     background-color: rgb(94, 89, 89);
-}
-
-span {
-    background-image: url("../Assets/Plus.png");
-    height: 10vh;
-    width: 5vw;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 p {
