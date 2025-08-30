@@ -20,6 +20,14 @@ nav>div {
     margin-top: 40px;
 }
 
+@media screen and (max-width: 490px) {
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+    }
+}
+
 .main {
     background-image: url("../Images/backgroundimage.png");
     background-position: center;
@@ -101,6 +109,7 @@ nav>div {
 #emailandbutton {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 #email {
@@ -111,6 +120,7 @@ nav>div {
     color: rgb(137, 240, 3);
     border-radius: 6px;
     cursor: pointer;
+    margin-bottom: 10px
 }
 
 #get_started {
@@ -151,6 +161,12 @@ nav>div {
     white-space: nowrap;
 }
 
+@media (max-width: 400px) {
+    #structure {
+        height: 1640px;
+    }
+}
+
 .movies {
     height: 167px;
     width: 298px;
@@ -168,6 +184,13 @@ nav>div {
     width: 288px;
 }
 
+@media (max-width: 400px) {
+    .movies {
+        height: 151px;
+        width: 267px;
+    }
+}
+
 .removal_of_underline {
     text-decoration: none;
 }
@@ -180,6 +203,12 @@ nav>div {
     font-family: serif;
     display: flex;
     justify-content: left;
+}
+
+@media (max-width: 400px) {
+    #hh {
+        font-size: 25px;
+    }
 }
 
 /* here classes ~ a,b,c... are used for images */
@@ -213,6 +242,12 @@ nav>div {
     font-size: 40px;
     margin-top: 60px;
     font-family: "serif";
+}
+
+@media (max-width: 400px) {
+    #topic {
+        font-size: 25px;
+    }
 }
 
 .g {
@@ -448,6 +483,9 @@ nav>div {
     text-align: center;
     font-size: 40px;
     padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
 }
 
 #join_button {
@@ -492,6 +530,14 @@ nav>div {
     margin-bottom: 16px;
 }
 
+@media (max-width: 400px) {
+    #about_us_text4 {
+        display: flex;
+        justify-content: left;
+        margin-left: 9px;
+    }
+}
+
 #join_btn_display_set {
     display: flex;
     justify-content: center;
@@ -511,34 +557,61 @@ nav>div {
     height: 400px;
 }
 
+#about_us_text1 {
+    display: flex;
+    justify-content: center;
+}
+
 #doubt {
     display: block;
     padding-left: 40px;
     padding-top: 100px;
-    font-size: 30px;
+    font-size: 25px;
     color: aliceblue;
     text-decoration-color: brown;
 }
 
+@media (max-width: 400px) {
+    #doubt {
+        font-size: 20px;
+    }
+}
+
 .table {
     color: aliceblue;
-    font-size: 33px;
     padding-top: 100px;
     display: flex;
     justify-content: center;
 }
 
+.links-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 12px;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
 .tb-content {
-    color: aliceblue;
-    border: 7px solid black;
-    text-decoration-color: brown;
-    font-size: 20px;
+    display: block;
+    text-decoration: none;
+    color: #999;
+    font-size: 14px;
+    transition: color 0.2s ease;
+}
+
+.tb-content:hover {
+    color: #fff;
 }
 
 #questions {
+    font-size: 25px;
     color: aliceblue;
-    padding: 100px;
-    font-size: 30px;
+    display: block;
+    margin-left: 40px;
+    margin-top: 100px;
+    margin-bottom: 40px;
 }
 
 .general_question {
@@ -559,18 +632,32 @@ nav>div {
     background-color: rgb(94, 89, 89);
 }
 
-p {
-    font-size: 70px;
+@media (max-width: 420px) {
+    .general_question {
+        font-size: 18px;
+    }
+}
+
+#footer_text {
+    font-size: 40px;
     color: aliceblue;
     display: flex;
     justify-content: center;
     margin-top: 190px;
+    padding-top: 30px;
+}
+
+@media (max-width: 400px) {
+    #footer_text {
+        text-align: center;
+        font-size: 30px;
+    }
 }
 
 #footer_text {
     background-color: black;
     box-shadow: -6px 1px 8px 5px #fa0c3f;
-    height: 180px;
+    height: 140px;
 }
 
 #box-shadow {
@@ -579,20 +666,3 @@ p {
     height: 50px;
 }
 
-@media screen and (max-width: 490px) {
-    nav {
-        flex-wrap: wrap;
-        justify-content: center;
-        align-content: center;
-    }
-
-    #box3 {
-        margin: 60px 55px 0px 55px;
-        margin-top: 110px;
-        font-size: 40px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: bold;
-        height: 200px;
-        color: aliceblue;
-    }
-}
