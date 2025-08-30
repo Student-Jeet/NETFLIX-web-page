@@ -6,8 +6,6 @@
 }
 
 nav {
-    /* background-color: brown; */
-    /* height: 20vh; */
     max-width: 100vw;
     margin: 0px 0px 0px 20px;
     display: flex;
@@ -24,20 +22,16 @@ nav>div {
 
 .main {
     background-image: url("../images/backgroundimage.png");
-    /* height: 99vh; */
-    /* position: relative; */
     background-position: center;
-    /* cool */
     background-repeat: no-repeat;
     background-size: max(1800px, 100vw);
 }
 
-#box2 {
+#control_box {
     margin: 0px 20px 0px 0px;
     position: relative;
     display: flex;
     justify-content: space-between;
-    /* align-items: flex-start; */
 }
 
 .langbtn {
@@ -46,7 +40,7 @@ nav>div {
     margin: 40px 0px 0px 0px;
 }
 
-.Language {
+.language_selector {
     background-color: rgb(0, 0, 0);
     border-radius: 3px;
     color: aliceblue;
@@ -55,7 +49,7 @@ nav>div {
     cursor: pointer;
 }
 
-.Sign_in_btn {
+.sign_in_btn {
     background-color: red;
     color: aliceblue;
     border: 1px solid red;
@@ -72,13 +66,10 @@ nav>div {
     height: 99vh;
 }
 
-#ContainsHeadingText {
-    /* display: flex;
-    justify-content: center; */
+#contains_heading_text {
     text-align: center;
     margin-top: 100px;
     font-family: Arial, Helvetica, sans-serif;
-
 }
 
 .text1 {
@@ -87,7 +78,6 @@ nav>div {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     margin-bottom: 20px;
-
 }
 
 .text2 {
@@ -114,8 +104,6 @@ nav>div {
 }
 
 #email {
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
     height: 48px;
     width: 18rem;
     background-color: black;
@@ -125,19 +113,19 @@ nav>div {
     cursor: pointer;
 }
 
-#btn3 {
+#get_started {
     margin: 0px 0px 0px 14px;
-    padding: 0px 0px 0px 0px;
     height: 48px;
     width: 130px;
     text-align: center;
     cursor: pointer;
-    /* position: relative; */
     color: aliceblue;
     top: 180px;
     height: 50px;
     width: 150px;
     background-color: red;
+    border: 1px solid red;
+    border-radius: 2px;
 }
 
 #horizontal_bar {
@@ -147,20 +135,18 @@ nav>div {
     box-shadow: 0px 1px black inset;
 }
 
-#background {
+#background_color {
     background-color: black;
 }
 
-#space {
+#free_space {
     height: 20px;
     background-color: black;
 }
 
 #structure {
-    /* background-image: url("backgroundimage.png"); */
     height: 1900px;
     width: 100%;
-    /* overflow-y: hidden; */
     overflow-x: auto;
     white-space: nowrap;
 }
@@ -173,7 +159,6 @@ nav>div {
     border-radius: 2px;
     display: inline-block;
     margin: 10px;
-    /* z-index: 2; */
     transition: all 0.1s ease-in 0s;
     background-position: center;
 }
@@ -183,9 +168,11 @@ nav>div {
     width: 288px;
 }
 
-.removalofunderline {
+.removal_of_underline {
     text-decoration: none;
 }
+
+/* hh~shows~Hollywood Hits */
 
 #hh {
     color: rgba(240, 248, 255, 0.7);
@@ -195,7 +182,7 @@ nav>div {
     justify-content: left;
 }
 
-/* here class a,b,c... are used for images */
+/* here classes ~ a,b,c... are used for images */
 
 .a {
     background-image: url("../images/Allofusaredead.png");
@@ -250,24 +237,6 @@ nav>div {
 
 .l {
     background-image: url("../images/Chhava.png");
-}
-
-#box10 {
-    height: 10px;
-    width: 100%;
-    background-color: slategrey;
-    box-shadow: 0px 1px black inset;
-    z-index: 3;
-}
-
-#box11 {
-    background-color: rgba(0, 0, 0, 1);
-}
-
-#p1 {
-    font-size: 50px;
-    color: whitesmoke;
-    text-align: center;
 }
 
 .m {
@@ -491,9 +460,16 @@ nav>div {
     border: 5px solid rgb(242, 2, 2);
     border-radius: 5px;
     cursor: pointer;
+    transition: all 0.1s ease-in 0s;
 }
 
-#about_us_text3 {
+#join_button:hover {
+    height: 37px;
+    width: 136px;
+    font-size: 17px;
+}
+
+#about_us_text2 {
     color: aliceblue;
     display: flex;
     justify-content: center;
@@ -501,7 +477,7 @@ nav>div {
     margin: 8px;
 }
 
-#about_us_text2 {
+#about_us_text3 {
     color: aliceblue;
     display: flex;
     justify-content: center;
@@ -516,12 +492,12 @@ nav>div {
     margin-bottom: 16px;
 }
 
-#btn-5 {
+#join_btn_display_set {
     display: flex;
     justify-content: center;
 }
 
-#background_color {
+#background_Color {
     background-color: black;
 }
 
@@ -537,18 +513,11 @@ nav>div {
 
 #doubt {
     display: block;
-    /* justify-content: end; */
     padding-left: 40px;
     padding-top: 100px;
-    /* text-decoration: none; */
     font-size: 30px;
     color: aliceblue;
     text-decoration-color: brown;
-}
-
-#CD {
-    display: block;
-    padding: 40px;
 }
 
 .table {
@@ -560,20 +529,13 @@ nav>div {
 }
 
 .tb-content {
-    /* text-decoration: none; */
     color: aliceblue;
     border: 7px solid black;
     text-decoration-color: brown;
     font-size: 20px;
 }
 
-h3 {
-    color: aliceblue;
-    padding-top: 60px;
-    padding-left: 40px;
-}
-
-#Qs {
+#questions {
     color: aliceblue;
     padding: 100px;
     font-size: 30px;
@@ -611,7 +573,6 @@ p {
     display: flex;
     justify-content: center;
     margin-top: 190px;
-
 }
 
 #footer_text {
@@ -628,7 +589,6 @@ p {
 
 @media screen and (max-width: 490px) {
     nav {
-        /* flex-direction: column; */
         flex-wrap: wrap;
         justify-content: center;
         align-content: center;
